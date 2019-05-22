@@ -18,3 +18,7 @@ Route::get('/', function () {
 Route::get('/nuevo-examen', function () {
 	return view('nuevo-examen');
 });
+
+Route::get('/autoExamen', function () {
+    return view('azar');
+});
