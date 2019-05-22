@@ -14,3 +14,11 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/nuevo-examen', function () {
+	return view('nuevo-examen');
+});
+
+Route::get('/autoExamen', function () {
+    return view('azar');
+});
