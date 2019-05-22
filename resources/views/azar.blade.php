@@ -1,19 +1,9 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Nuevo examen</title>
-    <link href="{{ asset('/css/azar.css') }}" rel="stylesheet">
-</head>
-<body>
-
+@extends('componects.main')
+@section('container')
 <!-- Cabezera -->
-@include('componects.header')
-@include('componects.navbar')
 
 <!-- Contenido -->
-<section class="contenido">
+<div class="contenido">
     <div class="titulo">
         Nuevo examen
     </div>
@@ -239,11 +229,5 @@
 
         </form>
     </div>
-</section>
-
-<!-- Pie de página -->
-<footer>
-
-</footer>
-</body>
-</html>
+</div>
+@endsection

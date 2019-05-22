@@ -8,6 +8,9 @@
 </head>
 @include('componects.global_css')
 <body>
+
+@include('componects.header')
+@include('componects.navbar')
 @yield('container')
 </body>
 @include('componects.global_js')
